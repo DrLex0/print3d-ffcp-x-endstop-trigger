@@ -15,7 +15,13 @@ When only printing with one nozzle on the Flashforge Creator Pro or similar prin
 
 On printers that have a cooling fan, it is much easier to remove the right stepper than the left. This makes the left extruder the best choice for single extrusion prints. However, the right stepper motor serves an additional function in the printer, namely to trigger the X endstop. If you remove this stepper, you must put something in place. I like the [dummy stepper by race12001](https://www.thingiverse.com/thing:2251192) but still found it too large, therefore I made a more minimal but still sturdy version that is just large enough to trigger the switch. It is easily mounted with the same screws as the stepper itself.
 
-I provide two versions, one that accepts 5×5 mm M3 brass inserts and one with direct holes. The brass inserts are recommended but simply threading the screws into the direct holes should also work, although you risk stripping the holes if you regularly mount and unmount this part.
+I provide three versions:
+
+- one that accepts 5×5 mm M3 brass inserts
+- one that accepts 5×6 mm M3 self-tapping thread inserts
+- one with direct holes
+
+The brass inserts are recommended but simply threading the screws into the direct holes should also work, although you risk stripping the holes if you regularly mount and unmount this part.
 
 Another variation omits the extra tab that covers the hot-end hole. This tab may help to avoid that dust or dirt ends up in the hole, although this wouldn't be a problem if you also unscrew the right nozzle when not using it.
 
@@ -31,10 +37,20 @@ I recommend to print this in ABS or PETG, especially if you're going to also pri
 
 ### Post-printing
 
-If you want to install the brass inserts, place them over the holes and use a soldering iron or something else to heat them to a temperature that melts the plastic. Then push them into the block against a flat surface. Check with a long M3 screw that they are sufficiently straight, and correct if necessary.
+#### Brass inserts
 
+Place the brass inserts over the holes and use a soldering iron or something else to heat them to a temperature that melts the plastic. Then push them into the block against a flat surface. Check with a long M3 screw that they are sufficiently straight, and correct if necessary.
+
+#### Self-tapping thread inserts
+
+Make shure the slotted side faces the hole. Use a 5 mm M3 bolt to screw the thread insert into the X endstop trigger. It should straighten itself in the process. Tighten the thread insert until you feel some resistance.
+
+![Photo 3](thumbs/photo-thread-inserts.jpg)[🔎](images/photo-thread-inserts.jpg)
 
 ## Updates
+
+### 2020/12/08
+Added files for self-tapping thread inserts.
 
 ### 2017/08/08
 First upload to Thingiverse.
