@@ -15,7 +15,7 @@ When only printing with one nozzle on the Flashforge Creator Pro or similar prin
 
 On printers that have a cooling fan, it is much easier to remove the right stepper than the left. This makes the left extruder the best choice for single extrusion prints. However, the right stepper motor serves an additional function in the printer, namely to trigger the X endstop. If you remove this stepper, you must put something in place. I like the [dummy stepper by race12001](https://www.thingiverse.com/thing:2251192) but still found it too large, therefore I made a more minimal but still sturdy version that is just large enough to trigger the switch. It is easily mounted with the same screws as the stepper itself.
 
-I provide three versions:
+Three versions are provided:
 
 - one that accepts 5×5 mm M3 brass inserts
 - one that accepts 5×6 mm M3 self-tapping thread inserts
@@ -43,7 +43,7 @@ Place the brass inserts over the holes and use a soldering iron or something els
 
 #### Self-tapping thread inserts
 
-Make shure the slotted side faces the hole. Use a 5 mm M3 bolt to screw the thread insert into the X endstop trigger. It should straighten itself in the process. Tighten the thread insert until you feel some resistance.
+Make sure the slotted side faces the hole. Use a 5 mm M3 bolt to screw the thread insert into the X endstop trigger. It should straighten itself in the process. Tighten the thread insert until you feel some resistance.
 
 ![Photo 3](thumbs/photo-thread-inserts.jpg)[🔎](images/photo-thread-inserts.jpg)
 
